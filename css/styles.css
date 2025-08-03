@@ -167,17 +167,15 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
 .benefits-list{
     display: flex;
     gap: 24px;
+}
 .benefits-item{
     width: calc((100% - 3*24px)/4);
 }
 .icon-benefits{
-    padding: 24px 100px;
-    margin-bottom: 8px;
-    background-color: #F4F4FD;
-    width: 264px;
-    height: 112px;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
+    display: block;
+    max-width: 100%;
+    margin: 24px auto;
+    
     }
     
 .benefits-item-title{
